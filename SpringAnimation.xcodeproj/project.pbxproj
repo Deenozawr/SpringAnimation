@@ -56,15 +56,47 @@
 		84B8BA402A3A3F7A008538C3 /* SpringAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				84B8BA412A3A3F7A008538C3 /* AppDelegate.swift */,
-				84B8BA432A3A3F7A008538C3 /* SceneDelegate.swift */,
-				84B8BA452A3A3F7A008538C3 /* ViewController.swift */,
-				84B8BA472A3A3F7A008538C3 /* Main.storyboard */,
-				84B8BA4A2A3A3F7C008538C3 /* Assets.xcassets */,
-				84B8BA4C2A3A3F7C008538C3 /* LaunchScreen.storyboard */,
-				84B8BA4F2A3A3F7C008538C3 /* Info.plist */,
+				84B8BA552A3A3F91008538C3 /* App */,
+				84B8BA562A3A3F9E008538C3 /* ViewControllers */,
+				84B8BA572A3A3FA9008538C3 /* Storyboards */,
+				84B8BA582A3A3FB6008538C3 /* Resources */,
 			);
 			path = SpringAnimation;
+			sourceTree = "<group>";
+		};
+		84B8BA552A3A3F91008538C3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				84B8BA4F2A3A3F7C008538C3 /* Info.plist */,
+				84B8BA412A3A3F7A008538C3 /* AppDelegate.swift */,
+				84B8BA432A3A3F7A008538C3 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		84B8BA562A3A3F9E008538C3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				84B8BA452A3A3F7A008538C3 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		84B8BA572A3A3FA9008538C3 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				84B8BA472A3A3F7A008538C3 /* Main.storyboard */,
+				84B8BA4C2A3A3F7C008538C3 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		84B8BA582A3A3FB6008538C3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84B8BA4A2A3A3F7C008538C3 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +321,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3QF3LQ7YF2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SpringAnimation/Info.plist;
+				INFOPLIST_FILE = SpringAnimation/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -302,9 +334,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Playground.SpringAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,7 +352,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3QF3LQ7YF2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SpringAnimation/Info.plist;
+				INFOPLIST_FILE = SpringAnimation/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -330,9 +365,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Playground.SpringAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
