@@ -29,9 +29,7 @@ final class ViewController: UIViewController {
             durationLabel.text = String(animation.duration[currentIndex].rounded())
         }
     
-    
-    
-    
+
     @IBAction func startSpringAnimation(_ sender: UIButton) {
         guard currentIndex < animation.presets.count else {
             return
