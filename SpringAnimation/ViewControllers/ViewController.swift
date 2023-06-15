@@ -57,6 +57,10 @@ final class ViewController: UIViewController {
         
         currentIndex += 1
         
+        if currentIndex == animation.presets.count {
+            currentIndex = 0
+        }
+        
         animationView.animation = currentPreset
         animationView.curve = currentCurve
         animationView.force = CGFloat(Float(currentForce) ?? 0)
